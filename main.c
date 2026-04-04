@@ -1,16 +1,9 @@
-//NÃO ALTERE ESSE ARQUIVO
-
 #include <stdio.h>
 #include "lib/cs50.h"
-#include "alerta.h"
 
-int main()
-{
-    int quant; 
-    do
-    {
-        quant = get_int("Quantos alertas deseja emitir? ");
-    } while (quant < 0);
-
-    emitir_alerta(quant);
-}
+int main (void)
+{ int bip = get_int("Quantos alertas: ");
+int b = 0;
+while (bip > b)
+{printf("BIP!\n");b++;}    
+return 0;}
